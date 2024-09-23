@@ -30,7 +30,7 @@ const AllAuthors = () => {
             return (
               <div className="card" key={element._id}>
                 {/* {authors && authors.avatar && ( */}
-                  <img src={element.avatar.url} alt="author_avatar" />
+                  <img src={element.avatar.url} alt="author_avatar" style={{borderRadius:'50%',width:'60%',height:'50%'}} />
                 {/* )} */}
                 <h3>{element.name}</h3>
                 <p>{element.role}</p>

@@ -20,17 +20,15 @@ const Footer = () => {
     >
       <div className="container">
         <div className="about">
-          <h3>About</h3>
+          <h3>Conatact</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Consectetur possimus sed praesentium! Et sunt, distinctio veniam
-            ullam, nesciunt ex laudantium quidem error sint, eum explicabo.
-          </p>
-          <p>
-            <span>Email:</span>zk@gmail.com
+            <span>Email:</span>Blogify@gmail.com
           </p>
           <p>
             <span>Phone:</span>0123987123
+          </p>
+          <p>
+            <span>Adress:</span>120E Sector-11 <br />New Delhi,India
           </p>
         </div>
         <div className="quick_links">
@@ -55,17 +53,17 @@ const Footer = () => {
         </div>
         <div className="news_letter">
           <div>
-            <h3>Weekly Newletter</h3>
+            <h3>Weekly Newsletter</h3>
             <p>Get blog articles and offer via email</p>
           </div>
           <div>
-            <input type="text" placeholder={`Your Email`} />
+            <input type="text" placeholder={`Your Email`}/>
             <button>Subscribe</button>
           </div>
         </div>
       </div>
       <div className="container">
-        <div className="logo">ZETA <span>BLOG</span></div>
+        <div className="logo"><span>Blogify</span></div>
         <div className="links">
           <Link to={"/"} target="_blank">
             <AiFillInstagram />
